@@ -30,9 +30,7 @@ class UrlWidget : AppWidgetProvider() {
         val intent = Intent(Intent.ACTION_VIEW, uri)
         val pendingIntent = PendingIntent.getActivity(context, 0, intent, FLAG_IMMUTABLE)
 
-        val widgetText = context.getString(R.string.appwidget_text)
         val remoteViews = RemoteViews(context.packageName, R.layout.url_widget)
-//        remoteViews.setTextViewText(R.id.appwidget_text, widgetText)
         remoteViews.setOnClickPendingIntent(R.id.appwidget, pendingIntent)
         appWidgetManager.updateAppWidget(appWidgetId, remoteViews)
     }

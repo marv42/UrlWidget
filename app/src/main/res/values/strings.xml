@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">UrlWidget</string>
-    <string name="appwidget_text">Open\nURL</string>
-    <string name="add_widget">Add widget</string>
+    <string name="appwidget_text_default">Open\nURL</string>
     <string name="app_widget_description">Open a URL</string>
+
+    <string name="enter_url">URL to be opened</string>
+    <string name="display_text">Text to be shown on the widget</string>
+    <string name="add_widget">Add widget</string>
 </resources>

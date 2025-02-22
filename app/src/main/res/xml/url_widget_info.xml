@@ -7,5 +7,5 @@
     android:minWidth="60dp"
     android:minHeight="30dp"
     android:updatePeriodMillis="0"
-    android:widgetCategory="home_screen" />
-<!--    android:previewImage="@drawable/example_appwidget_preview"-->
+    android:widgetCategory="home_screen"
+    android:configure="com.marv42.urlwidget.UrlWidgetConfigActivity"/>

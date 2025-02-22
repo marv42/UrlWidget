@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">UrlWidget</string>
+    <string name="app_name">Open URL</string>
     <string name="appwidget_text_default">Open\nURL</string>
     <string name="app_widget_description">Open a URL</string>
 
